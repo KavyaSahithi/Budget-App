@@ -292,15 +292,15 @@ var UIController = (function () {
 var controller = (function (budgetCtrl, UICtrl) {
   var setUpEventListeners = function () {
     var DOM = UIController.getDOMstrings()
-    //For button click
-    document.querySelector(DOM.inputBtn).addEventListener('click', function () {
-      ctrlAddItem()
-    })
     //For enter click
     document.addEventListener('keypress', function (event) {
       if (event.keyCode === 13 || event.which === 13) {
         ctrlAddItem()
       }
+    })
+    //For button click
+    document.querySelector(DOM.inputBtn).addEventListener('click', function () {
+      ctrlAddItem()
     })
     document
       .querySelector(DOM.container)
