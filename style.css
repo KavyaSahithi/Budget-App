@@ -168,12 +168,12 @@ body {
 }
 
 .add__btn {
-  font-size: 35px;
+  font-size: 30px;
   padding: 0px 5px;
   background: none;
   border: solid;
   border-width: 1px;
-  color: #56e456;
+  color: #5cc75c;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
