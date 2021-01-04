@@ -3,4 +3,4 @@ Keep track of your income-expenditure ratio
 
 # Live version
 
-Check out the live version here: https://kavyasahithi.github.io/Budget-App/
+Check out the live version here: https://budget-pal.netlify.app/
